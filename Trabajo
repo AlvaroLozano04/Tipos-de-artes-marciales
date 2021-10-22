@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: rgb(196, 223, 43);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+footer {
+  background-color: rgb(120, 69, 204);
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.col{
+  background-color: aquamarine;
+  width: 30%;
+  padding: 50px;
+  float: left;
+  height: 300px;
+}
+.col1{
+  background-color: aquamarine;
+  width: 30%;
+  padding: 50px;
+  float: right;
+  height: 300px; 
+}
+.box{
+  background-color: blueviolet;
+  width: 40%;
+  padding: 50px;
+  float: left;
+  height: 150px;
+}
+.box1{
+  background-color: rgb(68, 233, 47);
+  width: 40%;
+  padding: 50px;
+  float: left;
+  height: 150px;
+}
+.yeah{
+  background-color: rgb(68, 233, 47);
+  width: 33.33%;
+  padding: 20px;
+  float: left;
+  height: 400px;
+  color: white;
+  margin:auto
+}
+.yeah1{
+  background-color: aquamarine;
+  width: 33.33%;
+  padding: 20px;
+  float: left;
+  height: 400px;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Tipos de artes marciales</h2>
+</header>
+  <div class="clearfix">
+    <div>
+      <div class="yeah">
+        <h3>Karate</h3>
+        <p>El karate es el mas conocido hasta la fecha trata de la técnica de mano y ataque combinados con puños y patadas</p>
+        <img style="height: 210px; text-align:center;" src="img/karate.gif">  
+      </div>
+      <div class="yeah1">
+        <h3>Taekwondo</h3>
+        <p>El Taekwondo es un arte marcial que proviene de korea y trata de la defensa personal y ataque volador pero solo con patadas</p>
+        <img style="height: 210px;" src="img/taekwondogif.gif">
+      </div>
+      <div class="yeah">
+        <h3>Kickboxing</h3>
+        <p>El kicboxing es la agilidad y habilidad que se emplea para hacer una especie de boxeo combiinado con patadas y llaves para inmovilizar al objetivo</p>
+        <img style="height: 210px;" src="img/kickboxing.gig.gif">
+      </div>
+    </div>
+    <div class="col">Una vez habiendose informado de estas 3 artes marciales mas populares, nos hacemos una pregunta:</br>
+      ¿Que me gustaría practicar a mi según mis rasgos físicos?
+
+    </div>
+      <div>
+        <div class="box">Si somos personas creibles segun nuestra actividad y nuestro talento nos podria aportar un beneficio a la hora de elegir estas artes marciales mis recomendaciones serian las siguientes:</div>
+        <div class="col1">Estos son los conesjos que por ahora puedo dar que pase un buen dia</div>
+        <div class="box1">Si somos altos y delgado y nos gusta la agilidad y tenemos piernas largas el taekwondo, si qrs dar combinaciones de patadas y puños con estatura media, karate y por ultimo si eres bajito y te gusta la velocidad kickboxing</div>
+      </div>
+  </div>
+<footer>
+  <p>¡Síganos en nuestras redes sociales!</p>
+</footer>
+
+</body>
+</html>
